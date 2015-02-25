@@ -1,5 +1,6 @@
-ï»¿/*
- * FibonacciÂ sequence
+
+/*
+ * Fibonacci sequence
  * By Amirhossein Naemi
  * Febuary, 2015
  * GIT: https://github.com/amirhossein-naemi/Fibonacci
@@ -17,7 +18,7 @@
 using namespace std;
 
 const int colbreaksize = 10;
-const int colsize = 7;
+const int colsize      = 7;
 
 void print_output(ofstream & o, string txt) {
     cout << txt;
@@ -58,7 +59,7 @@ int main() {
     cout << "I was able to compile this code using the HPC at the University of"
          << " Memphis. When I compiled it there, it did not produce any warning"
          << " message. The HPC uses a GNU C++ compiler that can be considered a"
-         << " good up to date standard. I also versionÂ­controlled this code"
+         << " good up to date standard. I also version­controlled this code"
          << " using git, and used a remote repository hosted by github. If I"
          << " can do this, so can you!!!\n";
 
