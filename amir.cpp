@@ -61,7 +61,7 @@ int main() {
          << " message. The HPC uses a GNU C++ compiler that can be considered a"
          << " good up to date standard. I also version­controlled this code"
          << " using git, and used a remote repository hosted by github. If I"
-         << " can do this, so can you!!!\n";
+         << " can do this, so can you!!!\n\n";
 
     open_output(err, "amir.err");
     open_output(out, "amir.out");
@@ -72,11 +72,11 @@ int main() {
     if (max < 1) {
         print_output(err,
             "Error! input number should be equal or greater than 1\n");
-        return 2;
-    }
+		return 2;
+	}
 
-    cout << "\nI am so cool, that I was also able to write a code that produces"
-         << " the first " << max
+	str  << "I am so cool, that I was also able to write a code that produces"
+		 << " the first " << endl << max
          << " numbers of the Fibonacci sequence. Here they are:\n\n";
 
     for (int i = 1; i <= max; i++) {
