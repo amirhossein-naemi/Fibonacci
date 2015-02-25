@@ -72,11 +72,11 @@ int main() {
     if (max < 1) {
         print_output(err,
             "Error! input number should be equal or greater than 1\n");
-		return 2;
-	}
+        return 2;
+    }
 
-	str  << "I am so cool, that I was also able to write a code that produces"
-		 << " the first " << endl << max
+    str  << "I am so cool, that I was also able to write a code that produces"
+         << " the first " << endl << max
          << " numbers of the Fibonacci sequence. Here they are:\n\n";
 
     for (int i = 1; i <= max; i++) {
